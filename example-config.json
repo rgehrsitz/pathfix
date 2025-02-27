@@ -1,0 +1,25 @@
+{
+  "CommentPrefix": "File: ",
+  "IncludeGitIgnored": false,
+  "IncludeHidden": false,
+  "AdditionalIgnores": [
+    "vendor/",
+    "node_modules/",
+    "bin/",
+    "obj/"
+  ],
+  "FileTypes": {
+    ".rs": {
+      "LineComment": "//",
+      "BlockCommentStart": "/*",
+      "BlockCommentEnd": "*/",
+      "Preferred": "line"
+    },
+    ".md": {
+      "LineComment": "",
+      "BlockCommentStart": "<!--",
+      "BlockCommentEnd": "-->",
+      "Preferred": "block"
+    }
+  }
+}
