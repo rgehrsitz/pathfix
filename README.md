@@ -17,13 +17,13 @@ PathFix is a Go CLI application that adds or updates file header comments with t
 ### From Source
 
 ```bash
-go install github.com/yourusername/pathfix@latest
+go install github.com/rgehrsitz/pathfix@latest
 ```
 
 Or clone and build:
 
 ```bash
-git clone https://github.com/yourusername/pathfix.git
+git clone https://github.com/rgehrsitz/pathfix.git
 cd pathfix
 go build
 ```
